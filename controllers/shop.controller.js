@@ -1,5 +1,4 @@
 const shopService = require('../services/shop.service');
-const Shop = require('../models/Shop.model');
 
 module.exports.create = async (req, res, next) => {
     try {
